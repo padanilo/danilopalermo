@@ -3,11 +3,17 @@
 <head>
   <meta charset="UTF-8">
   <title>Estructura básica HTML5</title>
+  <link rel="stylesheet" href="css/stilos.css">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
+
 <body
+
  style="background-color:#e8efea">
   <!-- Menú superior -->
-  <nav class="navbar navbar-inverse">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <nav style="background-color: #00ff49">
     <div class="container">
 
       <div class="navbar-header">
@@ -19,14 +25,16 @@
         </button>
 
         <!-- Cambiar por tu nombre  ok -->
-        <a class="navbar-brand" href="#">Danilo Palermo</a>
+        <a class="navbar-brand" href="#" >Danilo Palermo</a>
+
       </div>
 
         <a href="#experiencia">Experiencia profesional</a>
         <a href="#educacions">Educación</a>
         <a href="#habilidade">Habilidades y conocimientos</a>
-        <a href="#perfiles-sociales">Perfiles sociales</a>
-        <a href="#contactar">Contactar</a>
+        <a href="#idiomas">Idiomas</a>
+        <a href="#datos">Datos Personales</a>
+        <a href="#competencias">Competencis de comunicación</a>
 
       <div id="navbar" class="collapse navbar-collapse">
 
@@ -40,16 +48,35 @@
     <div id="header" class="center">
 
     </div>
+    <br>
+    <br>
+    <br>
 
-    <h1 style="color:#0027ff">DANILO PALERMO</h1>
+  <h1 style="text-align: center;font-style: italic;">DANILO PALERMO</h1>
+
+
     <p>
-     <img
-       src="Immagine/Foto_cv.jpg"
-       alt="Foto Danilo Palermo"
-       width="150px"
-       height="150px"
-       >
+     
+       <style>
+       .hover1 img {
+       height: 150px;
+       width: 150px;
+       -webkit-transition: all 1s ease;
+       -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+       -ms-transition: all 1s ease;
+       transition: all 1s ease;
+       }
+       .hover1 img:hover {
+       width: 300px;
+       height: 300px;
+       }
+       </style>
+       <div class="hover1"><img src="Immagine/Foto_cv.jpg"/></div>
    </p>
+   <p>
+
+  </p>
     <p>
      Me considero una persona, sobre todo, emprendedora, con gran iniciativa, responsable y con alta capacidad de trabajo. <br>
    </p>
@@ -68,6 +95,7 @@
           <td>Tecnico de software</td>
           <td>Madrid</td>
           <td>02/2016 - 03/2017</td>
+          <td></td>
       </tr>
       <tr>
           <td>Departamento Regional de la Protección Civil</td>
@@ -89,6 +117,13 @@
       </tr>
   </table>
   <hr>
+  <a title="wolters" href="http://www.wktransportservices.com/es"><img src="Immagine/wolter.jpg" alt="wolter"
+    width="150px"
+    height="50px"></a>
+  <a title="Protezione civile" href="http://www.regione.sicilia.it/presidenza/protezionecivile/"><img src="Immagine/protezione-civile.png" alt="Protezione civile" width="80px"
+    height="80px"/></a>
+    <a title="Assessoreato" href="http://pti.regione.sicilia.it/portal/page/portal/PIR_PORTALE/PIR_LaStrutturaRegionale/PIR_Assessoratoistruzioneeformazioneprofessionale/PIR_PubblicaIstruzione"><img src="Immagine/Logo-asses.png" alt="Assessorato" width="80px"
+      height="80px"/></a>
     <h2 id="educacions" >Educación</h2>
 
     <table>
@@ -123,19 +158,62 @@
         </tr>
     </table>
     <hr>
+    <a title="Esri" href="http://www.esri.es/es/formacion/master-gis/"><img src="Immagine/Esri_logo.png" alt="Esri"
+      width="150px"
+      height="50px"/></a>
+      <a title="Unipa" href="http://www.unipa.it/"><img src="Immagine/logo_unipa.png" alt="Esri"
+        width="80px"
+        height="80px"/></a>
+        <a title="paris" href="http://www.eup.fr/"><img src="Immagine/logo-paris.png" alt="Esri"
+          width="125px"
+          height="80px"/></a>
+
     <h2 id="habilidade">Habilidades y conocimientos</h2>
 
      <ol>
-      <li>GIS</li>
-      <li>AUTOCAD</li>
-      <li>ADOBE ILLUSTRATOR</li>
-      <li>PAC OFFICE</li>
+      <li>Software ArcGIS optimo conocimiento de: ArcGis, ArcScene, ArcGis Pro, ArcMap, Qgis</li>
+      <li>Creación y gestión de Data base</li>
+      <li>Representación tridimensional de datos y modelos digitales de elevación</li>
+      <li>Lenguage de Programacion: JAVA, C++, HTML5, CSS3 -
+        Software: ATOM, GIT, GITHUB, CROME DEVTOOLD</li>
+        <li>Software conocido: Adobe Illustrator – Corel Draw – Google Earth - AutoCad</li>
+        <li>Patente Europea (ECDL)</li>
+        <li>Óptma utilización del Pac Office (Word, Excel, Power Point, Access), Internet e Posta Elettronica</li>
     </ol>
+    <hr>
+
+    <h2 id="idiomas">Idiomas</h2>
+
+     <p>
+      - Italiano (Nativo) <br>
+      - Espanol (Bilingue) <br>
+      - Francés (Nivel Medio) <br>
+      - Inglés (Nivel Medio) <br>
+      <p>
+
+    <h2 id="datos">Datos Personales</h2>
+
+     <p>
+      Fecha de nacimiento: 13/05/1989 <br>
+      Lugar de nacimiento: Castellana Sicula (PA) Italy <br>
+      Lugar de residencia: Madrid - Calle Angel Mugica 19  <a href="https://www.google.es/maps/place/Calle+de+%C3%81ngel+M%C3%BAgica,+19,+28034+Madrid/@40.4509743,-3.7748522,12z/data=!4m5!3m4!1s0xd4229666cd61f2d:0xfcbfa97482e47294!8m2!3d40.4859!4d-3.6868865?hl=it"> <strong>Mapa  </strong></a><br><br>
+
+      <p>
+
+        <h2 id="competencias">Competencis de comunicación</h2>
+
+         <p>
+           Capaz de dar informacion de modo claro y preciso respondiendo a específicas preguntas.<br>
+           Capacidad organizativa y de gestión, predisposición al trabajo en grupo,
+           fuerte actitud ante el trabajo para logar objetivos y buena capacidad comunicativa.
+          <p>
+
+
     <hr>
     <p>
      Potete visitare la mia pagina di  <a href="https://es.linkedin.com/in/danilo-palermo-68344b109"> <strong>Linkedin  </strong></a><br>
 
-    </p>
+    <p>
   </div>
 </body>
 </html>
