@@ -1,7 +1,17 @@
-<ul class="list">
-    <a href="tel://+34638581914"><img src="http://www.cittadinovara.com/wp-content/uploads/2013/12/polizia-di-stato-logo.jpg" alt="Chiama ora!" /></a>
+<body class="claro">
+    <select id="stateSelect" data-dojo-type="dijit/form/Select"
+        name="stateSelect">
+        <option value="" selected="selected">Con quien quieres conectar ?</option>
 
-    <li class= "item"><a href="tel://+34638581914</a></li>
-    <li class= "item">Elemento 3</li>
-</ul>
-<a href="tel://+34638581914"><img src="http://www.cittadinovara.com/wp-content/uploads/2013/12/polizia-di-stato-logo.jpg" alt="Chiama ora!" /></a>
+        <a href="113">Policia </a>
+        <a href="140">Soccorso alpino</a>
+         <a href="898">Manutenzione</a>
+         <a href="122">Vigili del Fuoco</a>
+         <a href="+34638581914">Mi numero +34638581914</a>
+
+    </select>
+
+    <script>
+        require(["dijit/form/Select", "dojo/parser"]);
+    </script>
+</body>
