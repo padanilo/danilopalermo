@@ -1,14 +1,30 @@
-<div> id="hormenu"><!-- div che contiene il menu -->
-  <ul> <!-- lista principale: definisce il menu nella sua interezza -->
-    <li>
-        <a href="#">Menu 1</a> <!-- primo list-item, prima voce del menu -->
-        <ul> <!-- Lista annidata: voci del sotto-menu -->
-            <li><a href="+34605402377">+34605402377</a></li>
-            <li><a href="#">Submenu 1</a></li>
-            <li><a href="#">Submenu 1</a></li>
-            <li><a href="#">Submenu 1</a></li>
-            <li><a href="#">Submenu 1</a></li>
-        </ul> <!-- Fine del sotto-menu -->
-    </li> <!-- Chiudo il list-item -->
- </div>
-    <!--qui altri list-item -->
+<div class="btn-group">
+  <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+    Apri menu <span class="caret"></span>
+  </button>
+  <ul class="dropdown-menu" role="menu">
+    <li><a href="#">Link 1</a></li>
+    <li><a href="#">Link 2</a></li>
+    <li><a href="#">Link 3</a></li>
+    <li class="divider"></li>
+    <li><a href="#">Link 4</a></li>
+  </ul>
+</div>
+
+
+
+<body class="claro">
+    <select id="stateSelect" data-dojo-type="dijit/form/Select"
+        name="stateSelect">
+        <option value="" selected="selected">Select a state</option>
+        <option value="AL">Alabama</option>
+        <option value="AK">Alaska</option>
+        <option value="AZ">Arizona</option>
+        <option value="AR">Arkansas</option>
+        <option value="CA">California</option>
+    </select>
+
+    <script>
+        require(["dijit/form/Select", "dojo/parser"]);
+    </script>
+</body>
